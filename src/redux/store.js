@@ -16,4 +16,7 @@ const mymiddleWare = (store) => (next) => (action) => {
 };
 
 const store = createStore(rootReducer, applyMiddleware(mymiddleWare, thunk));
+
+
+
 export default store;
